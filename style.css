@@ -1,0 +1,50 @@
+/* Moderní box model - nastavená šířka boxu je včetně paddingu a borderu */
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  /*
+  ------------------------------------------------
+  */
+
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: black;
+    background-color: #FFD29D;
+}
+
+nav {
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+    background-color: #F85E00;
+}
+
+nav a {
+    padding: 50px;
+    text-decoration: none;
+    color: #500c0d;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    color: #500c0d;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+    color: #500c0d;
+    font-size: 24px; 
+    font-weight: bold;
+    font-style: italic;
+}
