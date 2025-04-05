@@ -15,15 +15,32 @@ html {
 
 
 header {
-    padding: 50px;
-    background-color: #918450;
+    padding: 10px;
+    background-color: #FFB563;
     text-align: center;
     margin: 0;
 }
 
+
+.roboto-400 {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+.comforter-brush-regular {
+    font-family: "Comforter Brush", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
 body {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     color: black;
     background-color: #FFD29D;
     text-align: justify;
@@ -38,32 +55,41 @@ nav {
     text-align: center;
     padding: 16px;
     font-size: 20px;
-    background-color: #F85E00;
-    border-bottom: 3px solid #918450;
+    background-color: #918450;
+    border-bottom: 4px solid #F85E00;
 }
 
 nav a {
-    padding: 13px 70px 13px 70px;
+    padding: 16px 70px 16px 70px;
     text-decoration: none;
     color: #500c0d;
     font-weight: bold;
 }
 
+nav a:hover {
+    background-color: #F85E00;
+}
+
+nav a:focus {
+    background-color: #FFB563;
+}
+
 h1 {
     text-align: center;
     color: rgb(80, 12, 13);
-    font-size: 50px;
-    font-weight: bold;
-    font-style: italic;
-    text-decoration: wavy;
+    font-size: 100px;
+    letter-spacing: 10px;
+    
 }
 
 h2 {
+    font-family:'Comforter Brush';
+   
     text-align: center;
     color: #500c0d;
-    font-size: 24px; 
-    font-weight: bold;
-    font-style: italic;
+    font-size: 30px; 
+    font-weight: 400px;
+    
 }
 
 section {
@@ -95,11 +121,17 @@ section {
     width: 300px;
     border-radius: 50%;
     border: 2px solid #918450;
-    margin: 10px 40px 30px 400px;
+    margin-bottom: 30px;
+}
+    
+.kde-obrazek {
+    text-align: center;
+}
+
 /*
  Zarovnat na střed - jak?
 */
-}
+
 
 footer {
     padding: 10px;
