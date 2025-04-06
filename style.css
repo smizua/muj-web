@@ -31,15 +31,15 @@ header {
       "wdth" 100;
   }
 
-.comforter-brush-regular {
-    font-family: "Comforter Brush", cursive;
+  .pacifico-regular {
+    font-family: "Pacifico", cursive;
     font-weight: 400;
     font-style: normal;
   }
-  
+    
 
 body {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Roboto';
     font-size: 16px;
     color: black;
     background-color: #FFD29D;
@@ -60,6 +60,7 @@ nav {
 }
 
 nav a {
+    font-family: 'Pacifico';
     padding: 16px 70px 16px 70px;
     text-decoration: none;
     color: #500c0d;
@@ -75,6 +76,7 @@ nav a:focus {
 }
 
 h1 {
+    font-family: 'Pacifico';
     text-align: center;
     color: rgb(80, 12, 13);
     font-size: 100px;
@@ -83,7 +85,7 @@ h1 {
 }
 
 h2 {
-    font-family:'Comforter Brush';
+    font-family:'Pacifico';
    
     text-align: center;
     color: #500c0d;
@@ -128,12 +130,22 @@ section {
     text-align: center;
 }
 
-/*
- Zarovnat na střed - jak?
-*/
+.zpet a {
+    font-family:'Pacifico';
+    text-decoration: none;
+    color: #918450;  
+    }
 
+.zpet a:hover {
+    color: #F85E00 ;
+}
+
+.zpet {
+    text-align: right;
+}
 
 footer {
+    font-family: 'Pacifico';
     padding: 10px;
     background-color: #918450;
     text-align: center;
