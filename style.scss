@@ -1,0 +1,167 @@
+/* Moderní box model - nastavená šířka boxu je včetně paddingu a borderu */
+/*html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  /*
+  ------------------------------------------------
+  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$font-nadpis: 'Pacifico';
+$font-text: 'Roboto';
+
+h {
+    font-family: $font-nadpis;
+}
+
+header {
+    padding: 10px;
+    background-color: #FFB563;
+    text-align: center;
+    margin: 0;
+}
+
+
+.roboto-400 {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+  .pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+    
+
+body {
+    font-family:'Roboto';
+    font-size: 16px;
+    color: black;
+    background-color: #FFD29D;
+    text-align: justify;
+    margin: 0;
+    }
+    
+html {
+    scroll-behavior: smooth;
+    }
+
+nav {
+    text-align: center;
+    padding: 16px;
+    font-size: 20px;
+    background-color: #918450;
+    border-bottom: 4px solid #F85E00;
+}
+
+nav a {
+    font-family: 'Pacifico';
+    padding: 16px 70px 16px 70px;
+    text-decoration: none;
+    color: #500c0d;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #F85E00;
+}
+
+nav a:focus {
+    background-color: #FFB563;
+}
+
+h1 {
+    font-family: 'Pacifico';
+    text-align: center;
+    color: rgb(80, 12, 13);
+    font-size: 100px;
+    letter-spacing: 10px;
+    
+}
+
+h2 {
+    font-family:'Pacifico';
+   
+    text-align: center;
+    color: #500c0d;
+    font-size: 30px; 
+    font-weight: 400px;
+    
+}
+
+section {
+   overflow: auto;
+   margin: 30px 100px 0 100px;
+}
+
+.kdo img {
+   width: 200px;
+   border-radius: 50px;
+   float: left;
+   margin: 0 30px 0 0;
+   border: 2px solid #918450;
+}
+
+.foto img {
+    width: 49%;
+    display: inline-block;
+    border-radius: 20px;
+    border: 2px solid #918450;
+    margin: 0;
+}
+
+.foto {
+    text-align: left;
+}
+
+.kde img {
+    width: 300px;
+    border-radius: 50%;
+    border: 2px solid #918450;
+    margin-bottom: 30px;
+}
+    
+.kde-obrazek {
+    text-align: center;
+}
+
+.zpet a {
+    font-family:'Pacifico';
+    text-decoration: none;
+    color: #918450;  
+    }
+
+.zpet a:hover {
+    color: #F85E00 ;
+}
+
+.zpet {
+    text-align: right;
+}
+
+footer {
+    font-family: 'Pacifico';
+    padding: 10px;
+    background-color: #918450;
+    text-align: center;
+    margin: 0;
+    color: #500c0d;
+}
+
